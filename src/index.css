@@ -36,3 +36,65 @@ body > div {
   background-color: #275db3;
   color: white;
 }
+
+.home {
+  background-color: #f4a261; /* Choose your preferred color */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.green {
+  background-color: #28a745;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#main-section {
+  flex-grow: 1;
+  padding: 2em;
+}
